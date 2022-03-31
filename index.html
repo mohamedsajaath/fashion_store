@@ -3,6 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -20,8 +21,8 @@
                     <img src="images/logo.png" width="125px" class="main-logo">
                 </div>
                 <nav>
-                    <ul id="menu" >
-                        <li><a href="#" class="anchor" >Home</a></li>
+                    <ul id="menu">
+                        <li><a href="#" class="anchor">Home</a></li>
                         <li><a href="#" class="anchor">Products</a></li>
                         <li><a href="#" class="anchor">About</a></li>
                         <li><a href="#" class="anchor">Contact</a></li>
@@ -376,33 +377,23 @@
     <script>
 
 
-         let menu = document.getElementById("menu");
-         menu.style.maxHeight = "0px";
-        //  menu.style.display = "none";
+        let menu = document.getElementById("menu");
+
+        menu.style.maxHeight = "0px";
+
 
         function toggleMenu() {
-           
-            // console.log( menu.style.display);
-            // if(menu.style.display == "none"){
-                
-            //     menu.style.display = "relative";
-                
-            // }else{
 
-            //     menu.style.display = "none";
-            // }
-
-            
-            if( menu.style.maxHeight == "0px"){
+            if (menu.style.maxHeight == "0px") {
                 menu.style.maxHeight = "200px";
-                
-            }else{
+
+            } else {
 
                 menu.style.maxHeight = "0px"
-               
+
             }
 
-         
+
 
         }
 
