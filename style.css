@@ -243,7 +243,7 @@ h4 {
 
 
 .small-container-Brands {
-    margin-top: 300px;
+    margin-top: 150px;
     padding: 10px;
 
 }
@@ -458,4 +458,48 @@ hr {
     .right-icon{
         margin-left: 0px;
     }
+}
+
+
+
+
+
+
+
+/* product page Style */
+
+.row-prod{
+    justify-content: space-between;
+    margin-top: 100px;
+}
+
+select{
+    border:1px solid #555;
+    padding:5px;
+}
+select:focus{
+ outline: none;
+}
+
+.navigate-container .row{
+    font-size: 1.2em;
+    width: 20%;
+    margin-left:230px;
+    margin-bottom:50px;
+   
+    
+}
+span{
+    background-color: white;
+    height:30px;
+    width:30px;
+    border-radius: 50px;
+    margin:10px;
+    transition: background 0.8s;
+    text-align: center;
+}
+span:hover{
+    background-color: #ff523b;
+    color:white;
+    
 }
