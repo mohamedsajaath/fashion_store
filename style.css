@@ -489,7 +489,7 @@ select:focus{
    
     
 }
-span{
+.navigate{
     background-color: white;
     height:30px;
     width:30px;
@@ -498,7 +498,7 @@ span{
     transition: background 0.8s;
     text-align: center;
 }
-span:hover{
+.navigate:hover{
     background-color: #ff523b;
     color:white;
     
